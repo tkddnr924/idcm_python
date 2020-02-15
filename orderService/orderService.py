@@ -1,10 +1,9 @@
 #-*- coding:utf-8 -*-
 import json
 import requests
-from .errocode import *
+from .errocode import getErrorCode
 from .orderinfo import OrderInfo
 from decimal import Decimal
-import pdb
 
 class OrderService(OrderInfo): 
     # get error code
